@@ -1,0 +1,54 @@
+.choice{
+    padding: 100px;
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.choice__item{
+    cursor: pointer;
+    display: inline-block;
+}
+.choice__item:hover{
+    color: aqua;
+    transform: scale(1.5);
+    transition: all ease-in-out 0.3s;
+}
+.all{
+    display: flex;
+    justify-content: center;
+}
+.select__all{
+    display: flex;
+    justify-content: space-evenly;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.contact{
+    display: flex;
+}
+.result{
+    list-style:none;
+}
+
+.test>div{
+    width: 100%;
+    height: 100vh;
+}
+.section1{
+    background-color: aqua;
+}
+.section2{
+    background-color:blue;
+}
+.section3{
+    background-color: rgb(172, 24, 49);
+    transition: all ease-out 0.3s;
+}
+.section4{
+    background-color: rgb(235, 220, 17);
+}

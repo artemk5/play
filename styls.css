@@ -1,0 +1,138 @@
+html,  body{
+    height: 100%;
+}
+
+/* .pink */
+
+body.pink div.game-canvas{
+    background-color: palevioletred;
+}
+body.pink h2{
+    color: palevioletred;
+}
+body.pink  li{
+    color: palevioletred;
+}
+body.pink  p{
+    color: palevioletred;
+}
+body.pink h1{
+    color: palevioletred;
+}
+/* blue */
+
+body.blue div.game-canvas{
+    background-color: aqua;
+}
+body.blue h2{
+    color: blue;
+}
+body.blue li{
+    color: blue;
+}
+body.blue p{
+    color: blue;
+}
+body.blue h1{
+    color: blue;
+}
+
+/* .orange */
+
+body.orange div.game-canvas{
+    background-color: orange;
+}
+body.orange h2 , li, p, h1{
+    color: orange;
+}
+body.orange li, p, h1{
+    color: orange;
+}
+
+body.orange p, h1{
+    color: orange;
+}
+body.orange h1{
+    color: orange;
+}
+
+/* .gray */
+
+body.gray div.game-canvas{
+    background-color: aliceblue;
+}
+body.gray h2{
+    color: gray;
+}
+body.gray li{
+    color: gray;
+}
+body.gray  p{
+    color: gray;
+}
+body.gray h1{
+    color: gray;
+}
+
+/* .yellow */
+
+body.yellow div.game-canvas{
+    background-color: yellow;
+}
+body.yellow h2{
+    color: yellowgreen;
+}
+body.yellow li{
+    color: yellowgreen;
+}
+body.yellow  p{
+    color: yellowgreen;
+}
+body.yellow h1{
+    color: yellowgreen;
+}
+
+.list .hero{
+    cursor: pointer;
+}
+
+.game-block{
+    margin: auto;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+
+}
+.game-canvas{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: black;
+}
+.mandarin{
+    cursor: pointer;
+    position: absolute;
+    display: none;
+    width: 40px;
+    height: 40px;
+    top: 0 ;
+    left: 0;
+    transition: all .3s ease-in-out;
+
+}
+
+
+.list{
+    list-style: none;
+    padding: 0;
+}
+h1{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+    p:last-child{
+        text-transform: uppercase;
+    }
+  
